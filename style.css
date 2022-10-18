@@ -1,0 +1,103 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(4, 4, 27);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-items: center;
+    align-items: center;
+}
+
+.container {
+    background-color: rgb(4, 4, 27);
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    display: flex;
+    flex-flow: column row;
+    justify-content: center;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+
+
+}
+
+.c1 {
+    background-color: brown;
+}
+
+.main {
+    width: 500px;
+    height: auto;
+    background-color: rgb(4, 4, 27);
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+
+#BL {
+    color: rgb(62, 62, 212);
+}
+
+h1 {
+    color: white;
+}
+
+h4 {
+    color: rgb(184, 183, 182);
+}
+
+.main2 {
+    background-color: rgb(4, 4, 27);
+    width: auto;
+    height: auto;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+
+.three {
+    background-color: transparent;
+    height: 300px;
+    width: 300px;
+    border-radius: 15px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    color: white;
+    margin: 20px;
+
+}
+
+.three:hover {
+    background-color: rgb(8, 8, 51);
+}
+
+.internal {
+    background-color: rgb(24, 24, 102);
+    width: 55px;
+    height: 55px;
+    margin-top: 60px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 20px 0px inset rgb(39, 54, 168);
+    color: rgb(155, 155, 253);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
